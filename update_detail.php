@@ -205,7 +205,10 @@ Thanks,
 Virsing Vasava
 
 
-
+sudo chmod 777 /usr/bin/composer
+sudo composer self-update 2.4.1
+sudo chmod 755 /usr/bin/composer
+sudo composer self-update
 
 
 
