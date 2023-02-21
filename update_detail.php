@@ -55,7 +55,7 @@ postgres@123123
 /* Use for hidden files show  */
 	- ctrl + h
 	
-	
+	sudo chmod -Rf  777 tejarh-web
 	
 /* This for folder permision command we can  use */
 	- sudo chmod -Rf  777 countmee-courier
@@ -208,8 +208,12 @@ Virsing Vasava
 sudo chmod 777 /usr/bin/composer
 sudo composer self-update 2.4.1
 sudo chmod 755 /usr/bin/composer
+
 sudo composer self-update
 
+/* 
+sudo composer install
+*/
 
 
 
