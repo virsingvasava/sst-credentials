@@ -1,0 +1,61 @@
+
+http://3.142.88.4/serve-it-admin/
+https://isea.norigenglobal.com/
+http://countmee.com/countmee-courier/login
+https://coworkingspace.com/
+http://67.205.148.222/tejarh-web/
+http://67.205.148.222/ncon-php-grid/
+http://67.205.148.222/cookery-admin/   
+http://67.205.148.222/tip-cash-portal/
+http://pmckadmin.co.za/admin/
+
+
+NCON PHP Grid
+===============
+site_url = http://67.205.148.222/ncon-php-grid/
+username = Admin
+password = 123123
+
+Cookery Admin
+===============
+site_url = http://67.205.148.222/cookery-admin/ 
+username = admin@cookery.com
+password = cookery@123
+
+
+Coworkingspace
+===============
+site_url = https://coworkingspace.com/
+username = admin@tipcash.com
+password = admin@123
+
+Tip cash portal
+===============
+site_url = http://67.205.148.222/tip-cash-portal/backend/web/site/login
+username = admin@tipcash.com
+password = admin@123
+
+Isea
+===============
+site_url = https://isea.norigenglobal.com/
+username = admin@isea.com
+password = Isea@123
+
+Serve it admin
+===============
+site_url = http://3.142.88.4/serve-it-admin/
+username = admin@serveit.com
+password = serveit@123
+
+
+inventory-sales-backend admin
+===============
+site_url = http://15.206.103.16/
+username = admin@gmail.com
+password = admin@123
+
+Tejarh
+===============
+site_url = http://67.205.148.222/tejarh-web/
+username = admin@tejarh.com
+password = admin@123

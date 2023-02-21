@@ -1,0 +1,89 @@
+
+
+
+Types of Inheritance in Java
+============================
+1. Single Inheritance: 
+Single Inheritance is a child and parent class relationship where one class extends another class.
+
+2. Multilevel Inheritance: 
+Multilevel Inheritance is a child-parent relationship when a class extends the child class, 
+and that child class becomes a parent class for another class, and so on. For example, class A extends class B, and class C extends class B.
+
+3. Hierarchical Inheritance: 
+Hierarchical Inheritance refers to a child-parent class relationship where more than one class can extend the same parent class. For example, class B extends class A, and class C extends class A.
+
+4. Multiple Inheritance: 
+ Multiple Inheritance refers to a parent-child class relationship when one child class extends more than one parent class. 
+ This means, a child class can have more than one parent class. 
+ Java does not support multiple inheritance using classes, 
+ but with interfaces.
+
+
+Access Modifire 
+==============
+public, private, protected, default
+
+Data Types
+===========
+primitive data Types
+--------------------
+Boolean ->Boolean
+Integer -> byte, short, long, int
+float -> float, double
+Character -> char
+None -primitive data type 
+-----------------------
+String 
+Object,
+Nums
+interfaces
+class
+etc.
+
+Types of constructor
+=====================
+Default constructor
+No-argument constructor
+Parameterized Constructor
+
+
+JVM has five types of GC implementations
+=======================================
+Serial Garbage Collector.
+Parallel Garbage Collector.
+CMS Garbage Collector.
+G1 Garbage Collector.
+Z Garbage Collector.
+
+Types of Polymorphism
+=====================
+Static Polymorphism
+Dynamic Polymorphism
+
+
+Association
+============
+Association is an OOPS concept that defines the relationship between objects. The association represents the multiplicity between objects. For example, there are two objects: Teacher and Student. There exists a ‘one-to-many’ relationship between a teacher and students.
+
+There can be one teacher for many students, and there can be many teachers for a single student. However, both teacher and student objects are independent of each other.
+
+Aggregation
+============
+Aggregation is a special type of Association in Java. It represents a has-a relationship between two objects(object and their owner). Objects have their own life cycle but they have an ownership.
+
+Composition
+============
+Composition in Java is a special case of Aggregation. It is more restricted than Aggregation. When the contained object that represents a “HAS-A” relationship is unable to exist on its own, then it is a case of Composition.
+
+For example, House and Room. Here, the room can not exist without the house. Similarly, Library and books, If we delete the library, the books will be deleted automatically.
+
+Coupling
+============
+Coupling in Java refers to the information or dependency of one class on another class. It occurs when classes are aware of each other or interact with each other. If a class contains detailed information about another class, then we say that there is strong coupling between them.
+
+We can use interfaces to have weaker coupling between classes because there is no concrete implementation in interfaces.
+
+Cohesion
+============
+Cohesion refers to the level of performing a single well-defined task by a component. A highly cohesive method performs a single well-defined task. While, the weakly cohesive method will split the task into different parts.
